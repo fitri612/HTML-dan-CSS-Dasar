@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    color: blue;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+img{
+    width: 200px !important;
+}
