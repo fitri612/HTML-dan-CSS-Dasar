@@ -17,11 +17,45 @@
 
     
     <p>
-        <img src="assets/A11.2020.12884.jpg" alt="mypict">
-        Lailatul Fitriyah
-        <a href="#">Contoh Link</a>
-
+        <img src="assets/A11.2020.12884.jpg" alt="author">
     </p>
+    <p>
+        Lailatul Fitriyah
+    </p>
+    <a href="singlepost.html">Contoh Link</a>
+
+    <form action="">
+        <fieldset>
+            <legend>Form</legend>
+            <label for="email">Email : </label>
+            <input type="text" id="email" name="email">
+            <br>
+
+            <label for="nama">Nama : </label>
+            <input type="text" id="nama" name="nama">
+            <br>
+            <label for="jk">Jenis Kelamin : </label>
+            <input type="radio" id="jk" name="jk" value="laki-laki">Laki-laki
+            <input type="radio" id="jk" name="jk" value="perempuan">Perempuan
+            <br>
+            <label for="materi">Materi : </label>
+            <select name="materi" id="materi">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">Javascript</option>
+                <option value="php">PHP</option>
+                <option value="mysql">MySQL</option>
+            </select>
+            <br>
+            <!-- pesan -->
+            <label for="pesan">Pesan : </label>
+            <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+            <br>
+            <input type="checkbox"> <label for="checklist">Apakah mau berlangganan ? </label>
+            <br>
+            <button type="submit">Kirim</button>
+        </fieldset>
+    </form>
     
 </body>
 </html>
