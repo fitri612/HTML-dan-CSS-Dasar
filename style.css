@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body{
@@ -38,8 +38,33 @@ img{
     font-size: 22px;
 }
 
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .blog-post{
     position: relative;
+    background-color: #E0F5FF;
+    width: 75%;
+    float: left;
+}
+
+.other-post{
+    /* position: relative; */
+    background-color: #D9FFE2;
+    width: 25%;
+    float: left;
+}
+
+.author-box{
+    background-color: #FDFFD6;
+}
+
+.clearfix::after{
+    display: table;
+    clear: both;
 }
 
 .date{
