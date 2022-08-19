@@ -1,0 +1,26 @@
+*,*::before, *::after {
+  box-sizing: border-box;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    font-size: 4em;
+    font-weight: 0.9;
+}
+
+p{
+    margin: 0;
+    color: #a9b1b3;
+}
+
+a{
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+    color: #a9b1b3;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    border: 1px solid #a9b1b3;
+    transition: all 0.3s ease-in-out;
+}
